@@ -8,8 +8,8 @@
 //const int green_pin   = 14; // D5
 
 const int red_pin     = 2 ; // D4
-const int yellow_pin  = 0 ; // D3
-const int green_pin   = 4 ; // D2
+const int yellow_pin  = 4 ; // D3
+const int green_pin   = 0 ; // D2
 
 //const int button_pin  = 5 ; // D1
 const int button_pin  = 14 ; // D5
