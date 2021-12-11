@@ -10,11 +10,11 @@ print_cover();
 //print_box();
 
 //module print_cover(length=100,wide=70,front_height=70,back_height=70) {
-module print_cover(length=100,wide=70,front_height=70,back_height=70) {
+module print_cover(length=100,wide=70,front_height=70,back_height=70,thick=2) {
     difference() {
         union() {
 //yig_diagonal_box(x=length,y=wide,front_h=front_height,back_h=back_height,to_print="cover");
-            yig_diagonal_box(x=length,y=wide,front_h=front_height,back_h=back_height,to_print="cover");
+            yig_diagonal_box(x=length,y=wide,front_h=front_height,back_h=back_height,width=thick,to_print="cover");
 //            translate([70,74,-1.5]) text_it("Power");
 //            translate([74,66,-1.5]) text_it("ON");
 //            translate([72,25,-1.5]) text_it("OFF");
